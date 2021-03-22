@@ -1,3 +1,12 @@
+/*
+Theme Name: Embarque
+Theme URI: http://embarque.com
+Author: Ana Julia
+Author URI: http://embarque.com/
+Description: Tema criado para a Embarque Turismo
+Version: 1.0
+*/
+
 /*index*/
 
 /*body*/
@@ -39,7 +48,7 @@ p {
 
 /*banner-home*/
 #banner-home {
-  background-image: url(../img/bg-intro.jpg);
+  background-image: uimg/bg-intro.jpg);
   height: 30vh;
   margin-top: 90px;
 }
@@ -76,13 +85,13 @@ img {
 
 /*Nacionais-area*/
 #nacionais-area {
-  background-image: url(../img/bg-nacionais.jpg);
+  background-image: url(img/bg-nacionais.jpg);
   color: #f2f2f2;
 }
 
 /*Internacionais-area*/
 #internacionais-area {
-  background-image: url(../img/bg-internacionais.jpg);
+  background-image: url(img/bg-internacionais.jpg);
   color: #f2f2f2;
   text-align: end;
 }
@@ -94,7 +103,7 @@ img {
 
 /*contact-area*/
 #contact-area {
-  background-image: url(../img/bg-contato.jpg);
+  background-image: url(img/bg-contato.jpg);
 }
 
 #contact-area .contact-box {
@@ -152,7 +161,7 @@ img {
 
 /*banner-nacionais*/
 #banner-nacionais {
-  background-image: url(../img/banner-nacionais.jpg);
+  background-image: url(img/banner-nacionais.jpg);
   height: 30vh;
   margin-top: 90px;
 }
@@ -171,7 +180,7 @@ img {
 
 /*banner-internacionais*/
 #banner-internacionais {
-  background-image: url(../img/banner-internacionais.jpg);
+  background-image: url(img/banner-internacionais.jpg);
   height: 30vh;
   margin-top: 90px;
 }
@@ -185,7 +194,7 @@ img {
 
 /*banner-sobre*/
 #banner-sobre {
-  background-image: url(../img/banner-sobre.jpg);
+  background-image: url(img/banner-sobre.jpg);
   height: 30vh;
   margin-top: 90px;
 }
