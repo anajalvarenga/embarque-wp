@@ -1,0 +1,558 @@
+/*index*/
+
+/*body*/
+
+h1 {
+  z-index: 1000;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 36px;
+}
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #093040 !important;
+  border-color: #093040 !important;
+}
+
+.btn-primary:hover {
+  background-color: #65818c !important;
+  border-color: #65818c !important;
+}
+
+/*navbar*/
+.navbar {
+  background-color: #093040 !important;
+}
+
+/*banner-home*/
+#banner-home {
+  background-image: url(../img/bg-intro.jpg);
+  height: 30vh;
+  margin-top: 90px;
+}
+
+#banner-home h1 {
+  padding: 20px;
+}
+
+/*about-area*/
+img {
+  width: 100%;
+}
+
+/*service-area*/
+.service-box {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #65818c;
+  padding: 1rem;
+  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+}
+.service-box i {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/*travels-area*/
+#travels-area .h4-travels {
+  padding: 24px 8px;
+  margin: 0;
+}
+
+/*Nacionais-area*/
+#nacionais-area {
+  background-image: url(../img/bg-nacionais.jpg);
+  color: #f2f2f2;
+}
+
+/*Internacionais-area*/
+#internacionais-area {
+  background-image: url(../img/bg-internacionais.jpg);
+  color: #f2f2f2;
+  text-align: end;
+}
+
+/*client-slider*/
+.carousel-indicators .active {
+  background-color: #f27244;
+}
+
+/*contact-area*/
+#contact-area {
+  background-image: url(../img/bg-contato.jpg);
+}
+
+#contact-area .contact-box {
+  background-color: #65818c;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+#contact-area h2 {
+  color: #093040;
+  margin-bottom: 15px;
+}
+
+#contact-area input[type="text"],
+#contact-area input[type="email"],
+#contact-area textarea {
+  margin-bottom: 10px;
+}
+
+/*footer*/
+/*information-area*/
+
+#information-area {
+  background-color: #65818c;
+  text-align: center;
+}
+
+#information-area .information-box {
+  padding: 10px;
+}
+
+#information-area .information-box i {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#information-area .information-box .email {
+  font-size: 12px;
+  padding: 10px;
+}
+
+/*copy-area*/
+
+#copy-area {
+  background-color: #093040;
+  color: #f2f2f2;
+}
+
+#copy-area p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/*Nacionais*/
+
+/*banner-nacionais*/
+#banner-nacionais {
+  background-image: url(../img/banner-nacionais.jpg);
+  height: 30vh;
+  margin-top: 90px;
+}
+
+#banner-nacionais h1 {
+  padding: 20px 0;
+}
+
+/*contact-area*/
+#contact-area .saiba-mais p,
+#contact-area .saiba-mais h2 {
+  color: #f2f2f2;
+}
+
+/*Internacionais*/
+
+/*banner-internacionais*/
+#banner-internacionais {
+  background-image: url(../img/banner-internacionais.jpg);
+  height: 30vh;
+  margin-top: 90px;
+}
+
+#banner-internacionais h1 {
+  padding: 0;
+  margin: 0;
+}
+
+/*Sobre*/
+
+/*banner-sobre*/
+#banner-sobre {
+  background-image: url(../img/banner-sobre.jpg);
+  height: 30vh;
+  margin-top: 90px;
+}
+
+#banner-sobre h1 {
+  padding: 16px;
+}
+
+#mvv-sobre .about-box {
+  background-color: #65818c;
+  text-align: center;
+  border-radius: 5%;
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+#mvv-sobre .about-box p {
+  margin-bottom: 0;
+}
+
+/*Contato*/
+
+/*banner-sobre*/
+#banner-contato {
+  background-image: url(../img/banner-contato.jpg);
+  height: 30vh;
+  margin-top: 90px;
+}
+#banner-contato h1 {
+  margin: 0;
+}
+
+/*responsivo*/
+
+@media (min-width: 576px) {
+  /*index*/
+
+  /*banner-home*/
+  #banner-home {
+    height: 40vh;
+  }
+
+  #banner-home h1 {
+    padding: 60px;
+  }
+
+  /*travels-area*/
+  #travels-area .h4-travels {
+    padding: 60px 40px;
+    margin: 0;
+  }
+
+  /*contact-area*/
+
+  #contact-area .contact-box {
+    padding: 40px 25px;
+  }
+
+  #contact-area h2 {
+    margin-bottom: 40px;
+  }
+
+  #contact-area input[type="text"],
+  #contact-area input[type="email"] {
+    margin-bottom: 20px;
+  }
+  #contact-area textarea {
+    margin-bottom: 30px;
+  }
+
+  /*Nacionais*/
+
+  #banner-nacionais {
+    height: 40vh;
+  }
+  #banner-nacionais h1 {
+    padding: 60px 0;
+  }
+
+  /*Internacionais*/
+
+  #banner-internacionais {
+    height: 40vh;
+  }
+
+  #banner-internacionais h1 {
+    padding: 40px 0;
+  }
+
+  /*Sobre*/
+
+  #banner-sobre {
+    height: 40vh;
+  }
+
+  #banner-sobre h1 {
+    padding: 60px 0;
+  }
+
+  #mvv-sobre .about-box {
+    background-color: #65818c;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 12px;
+    width: 100%;
+    min-height: 254px;
+    height: 100%;
+  }
+
+  /*Contato*/
+
+  #banner-contato {
+    height: 40vh;
+  }
+
+  #banner-contato h1 {
+    padding: 60px 0;
+  }
+}
+@media (min-width: 768px) {
+  /*body*/
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  /*index*/
+
+  /*banner-home*/
+  #banner-home {
+    height: 60vh;
+  }
+
+  #about-area img {
+    margin: 40px 0;
+  }
+
+  /*travels-area*/
+  #travels-area .h4-travels {
+    font-size: 36px;
+    padding: 70px 45px;
+  }
+  /*clientSlider*/
+  #clientSlider {
+    width: 50%;
+    left: 25%;
+  }
+
+  #information-area .information-box .email {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+  }
+
+  /*Nacionais*/
+
+  #banner-nacionais {
+    height: 60vh;
+    margin-bottom: 40px;
+  }
+  #banner-nacionais h1 {
+    padding: 100px 0;
+  }
+
+  /*norte*/
+  #norte p {
+    margin-bottom: 8px;
+  }
+
+  #norte img {
+    margin-top: 20px;
+  }
+
+  /*nordeste*/
+  #nordeste img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*centro-oeste*/
+  #centro-oeste img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*sudeste*/
+  #sudeste p {
+    margin-bottom: 8px;
+  }
+
+  #sudeste img {
+    margin-top: 20px;
+  }
+
+  /*sul*/
+  #sul img {
+    margin-top: 20px;
+  }
+
+  /*Internacionais*/
+
+  #banner-internacionais {
+    height: 60vh;
+  }
+
+  #banner-internacionais h1 {
+    padding: 80px 0;
+  }
+
+  /*Sobre*/
+
+  #banner-sobre {
+    height: 60vh;
+    margin-bottom: 30px;
+  }
+
+  #banner-sobre h1 {
+    padding: 100px 0;
+  }
+
+  #mvv-sobre .about-box {
+    min-height: 164px;
+  }
+
+  /*Contato*/
+
+  #banner-contato {
+    height: 60vh;
+  }
+
+  #banner-contato h1 {
+    padding: 100px 0;
+  }
+}
+@media (min-width: 992px) {
+  /*index*/
+
+  /*banner-home*/
+  #banner-home h1 {
+    padding: 100px;
+  }
+
+  #about-area .text-about {
+    padding: 40px 20px;
+  }
+
+  /*travels-area*/
+  #travels-area .h4-travels {
+    font-size: 48px;
+    padding: 100px 70px;
+  }
+
+  /*nacionais-area*/
+  #nacionais-area h2 {
+    margin-bottom: 20px;
+  }
+
+  #nacionais-area a {
+    margin-top: 20px;
+  }
+
+  /*internacionais-area*/
+  #internacionais-area h2 {
+    margin-bottom: 20px;
+  }
+
+  #internacionais-area a {
+    margin-top: 20px;
+  }
+
+  /*clientSlider*/
+  #clientSlider {
+    width: 40%;
+    left: 30%;
+  }
+
+  /*Nacionais*/
+
+  #norte .norte-text,
+  #nordeste .nordeste-text,
+  #centro-oeste .centro-oeste-text,
+  #sudeste .sudeste-text,
+  #sul .sul-text {
+    margin: 20px 0;
+  }
+
+  #norte .norte-text p,
+  #nordeste .nordeste-text p,
+  #centro-oeste .centro-oeste-text p,
+  #sudeste .sudeste-text p,
+  #sul .sul-text p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  /*body*/
+  p, {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /*index*/
+
+  /*banner-home*/
+  #banner-home {
+    height: 80vh;
+  }
+
+  #banner-home h1 {
+    padding: 180px 0;
+  }
+
+  /*travels-area*/
+  #travels-area .h4-travels {
+    font-size: 48px;
+    line-height: 60px;
+    padding: 110px 100px;
+  }
+
+  /*Nacionais*/
+
+  #banner-nacionais {
+    height: 80vh;
+  }
+  #banner-nacionais h1 {
+    padding: 180px 0;
+  }
+
+  /*Internacionais*/
+
+  #banner-internacionais {
+    height: 80vh;
+  }
+
+  #banner-internacionais h1 {
+    padding: 180px 0;
+  }
+
+  /*Sobre*/
+
+  #banner-sobre {
+    height: 80vh;
+  }
+
+  #banner-sobre h1 {
+    padding: 200px 0;
+  }
+
+  /*Contato*/
+
+  #banner-contato {
+    height: 80vh;
+  }
+
+  #banner-contato h1 {
+    padding: 180px 0;
+  }
+}
