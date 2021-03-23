@@ -41,7 +41,7 @@
                     </div>
                     <div class="row mb-5">
                         <div class="col-12">
-                            <img src="img/localizacao.jpg" alt="Localização">
+                            <img src="<?php the_field('localizacao'); ?>" alt="Localização">
                         </div>
                     </div>
                 </div>
