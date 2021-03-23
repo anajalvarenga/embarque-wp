@@ -35,7 +35,10 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top px-3 py-0">
                 <a href="/embarque/" class="navbar-brand">
-                    <img src="./img/logo.svg" alt="Logo Embarque Turismo" class="logo">
+
+                    <?php $home = get_page_by_title('home'); ?>        
+                    <img src="<?php the_field('logo', $home); ?>" alt="Logo Embarque Turismo" class="logo">
+
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

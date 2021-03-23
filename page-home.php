@@ -20,25 +20,10 @@
                     <div class="row my-3">
                         <div class="col-12 col-md-6 text-about">
                             <h2>Sobre Nós</h2>
-                            <p>
-                                A Embarque é uma agência de turismo, especializada na organização de
-                                passeios para todos os destinos. Estamos felizes em tornar suas férias
-                                inesquecíveis e incríveis! Nossos agentes são especialistas em encontrar
-                                o lugar mais confortável e interessante para você passar férias de tirar o
-                                fôlego. Selecione o país que gostaria de visitar e forneça aos nossos
-                                agentes uma semana e eles encontrarão e oferecerão o mais adequado
-                                passeios e hotéis.
-                            </p>
-                            <p>
-                                Durante nosso trabalho, organizamos inúmeras viagens para nossos
-                                clientes. Começamos como uma pequena agência de turismo e logo
-                                expandimos nossa lista de ofertas. Hoje temos uma experiência valiosa
-                                em viagens e podemos aconselhar os mais impressionantes resorts,
-                                cidades e países a serem visitados!
-                            </p>
+                            <?php the_field('sobre_texto_home'); ?>
                         </div>
                         <div class="col-12 col-md-6">
-                            <img src="./img/foto-sobre.jpg" alt="Foto sobre">
+                            <img src="<?php the_field('sobre_foto_home'); ?>" alt="Foto sobre">
                         </div>
                     </div>
                 </div>
@@ -95,35 +80,35 @@
                     </div>
                     <div class="row">
                         <div class="col-4 p-0">
-                            <img src="img/foto-1-1.jpg" alt="Pontos Turisticos" class="p-1">
+                            <img src="<?php the_field('viagens_1_1'); ?>" alt="Pontos Turisticos" class="p-1">
                         </div>
                         <div class="col-4 p-0">
-                            <img src="img/foto-1-2.jpg" alt="Festivais" class="p-1">
+                            <img src="<?php the_field('viagens_1_2'); ?>" alt="Festivais" class="p-1">
                         </div>
                         <div class="col-4 p-0">
-                            <img src="img/foto-1-3.jpg" alt="Bebidas Regionais" class="p-1">
+                            <img src="<?php the_field('viagens_1_3'); ?>" alt="Bebidas Regionais" class="p-1">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-4 p-0">
-                            <img src="img/foto-2-1.jpg" alt="Passeios" class="p-1">
+                            <img src="<?php the_field('viagens_2_1'); ?>" alt="Passeios" class="p-1">
                         </div>
                         <div class="col-4 p-0">
                             <h4 class="h4-travels">Nossas<br>Viagens</h3>
                         </div>
                         <div class="col-4 p-0">
-                            <img src="img/foto-2-3.jpg" alt="Música" class="p-1">
+                            <img src="<?php the_field('viagens_2_3'); ?>" alt="Música" class="p-1">
                         </div>
                     </div>
                     <div class="row mb-4">
                         <div class="col-4 p-0">
-                            <img src="img/foto-3-1.jpg" alt="Cultura" class="p-1">
+                            <img src="<?php the_field('viagens_3_1'); ?>" alt="Cultura" class="p-1">
                         </div>
                         <div class="col-4 p-0">
-                            <img src="img/foto-3-2.jpg" alt="Museu" class="p-1">
+                            <img src="<?php the_field('viagens_3_2'); ?>" alt="Museu" class="p-1">
                         </div>
                         <div class="col-4 p-0">
-                            <img src="img/foto-3-3.jpg" alt="Esportes" class="p-1">
+                            <img src="<?php the_field('viagens_3_3'); ?>" alt="Esportes" class="p-1">
                         </div>
                     </div>
                 </div>
@@ -163,24 +148,24 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/foto-cliente.jpg" class="d-block w-100" alt="Maria Souza">
+                        <img src="<?php the_field('cliente_1_foto'); ?>" class="d-block w-100" alt="Maria Souza">
                         <div class="carousel-caption d-md-block">
-                            <h4>Maria Souza</h4>
-                            <p>"A Embarque reservou para nós duas grandes viagens pela Europa no ano passado e cada aspecto atendeu, na maioria dos casos, superou nossas expectativas."</p>
+                            <h4><?php the_field('cliente_1_nome'); ?></h4>
+                            <p><?php the_field('cliente_1_texto'); ?></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/foto-cliente-2.jpg" class="d-block w-100" alt="João da Silva">
+                        <img src="<?php the_field('cliente_2_foto'); ?>" class="d-block w-100" alt="João da Silva">
                         <div class="carousel-caption d-md-block">
-                            <h4>João da Silva</h4>
-                            <p>“Foi uma experiência fantástica, vimos tanta coisa, a vida selvagem, a paisagem, conhecemos pessoas interessantes e realmente conhecemos o Alasca! Obrigado por uma viagem única e memorável! ”</p>
+                            <h4><?php the_field('cliente_2_nome'); ?></h4>
+                            <p><?php the_field('cliente_2_texto'); ?></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/foto-cliente-3.jpg" class="d-block w-100" alt="Carlos Augusto">
+                        <img src="<?php the_field('cliente_3_foto'); ?>" class="d-block w-100" alt="Carlos Augusto">
                         <div class="carousel-caption d-md-block">
-                            <h4>Carlos Augusto</h4>
-                            <p>"A Embarque tem feito meus planos de viagem por cerca de 8 anos e não há ninguém em quem eu confiaria para organizar minhas viagens e passeios."</p>
+                            <h4><?php the_field('cliente_3_nome'); ?></h4>
+                            <p><?php the_field('cliente_3_texto'); ?></p>
                         </div>
                     </div>
                 </div>
