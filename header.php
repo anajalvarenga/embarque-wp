@@ -46,21 +46,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Nossas Viagens</a>
-                            <div class="dropdown-menu">
-                                <a href="/embarque/nacionais/" class="dropdown-item">Nacionais</a>
-                                <a href="/embarque/internacionais/" class="dropdown-item">Internacionais</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/embarque/sobre/" class="nav-link">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/embarque/contato/" class="nav-link">Contato</a>
-                        </li>
-                    </ul>
+                    <?php
+                    $args = array(
+                        'menu' => 'principal',
+                        'container' => false
+                    );
+                    wp_nav_menu( $args );
+                ?>
                 </div>
             </nav>
         </div>

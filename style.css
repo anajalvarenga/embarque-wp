@@ -9,6 +9,21 @@ Version: 1.0
 
 /*index*/
 
+/*header*/
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+header nav ul li a {
+  color: #f2f2f2;
+}
+
+header nav ul li a:hover {
+  color: #f27244;
+}
+
 /*body*/
 
 h1 {
@@ -50,7 +65,7 @@ p {
 #banner-home {
   background-image: url(img/bg-intro.jpg);
   height: 30vh;
-  margin-top: 90px;
+  margin-top: 58px;
 }
 
 #banner-home h1 {
@@ -163,7 +178,7 @@ img {
 #banner-nacionais {
   background-image: url(img/banner-nacionais.jpg);
   height: 30vh;
-  margin-top: 90px;
+  margin-top: 58px;
 }
 
 #banner-nacionais h1 {
@@ -182,7 +197,7 @@ img {
 #banner-internacionais {
   background-image: url(img/banner-internacionais.jpg);
   height: 30vh;
-  margin-top: 90px;
+  margin-top: 58px;
 }
 
 #banner-internacionais h1 {
@@ -196,7 +211,7 @@ img {
 #banner-sobre {
   background-image: url(img/banner-sobre.jpg);
   height: 30vh;
-  margin-top: 90px;
+  margin-top: 58px;
 }
 
 #banner-sobre h1 {
@@ -222,7 +237,7 @@ img {
 #banner-contato {
   background-image: url(img/banner-contato.jpg);
   height: 30vh;
-  margin-top: 90px;
+  margin-top: 58px;
 }
 #banner-contato h1 {
   margin: 0;
