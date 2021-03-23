@@ -220,7 +220,7 @@ img {
 
 /*banner-sobre*/
 #banner-contato {
-  background-image: url(../img/banner-contato.jpg);
+  background-image: url(img/banner-contato.jpg);
   height: 30vh;
   margin-top: 90px;
 }
