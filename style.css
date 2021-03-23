@@ -370,40 +370,15 @@ img {
     padding: 100px 0;
   }
 
-  /*norte*/
-  #norte p {
+  /*regiao*/
+  #regiao p {
     margin-bottom: 8px;
   }
 
-  #norte img {
+  #regiao img {
     margin-top: 20px;
   }
 
-  /*nordeste*/
-  #nordeste img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  /*centro-oeste*/
-  #centro-oeste img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  /*sudeste*/
-  #sudeste p {
-    margin-bottom: 8px;
-  }
-
-  #sudeste img {
-    margin-top: 20px;
-  }
-
-  /*sul*/
-  #sul img {
-    margin-top: 20px;
-  }
 
   /*Internacionais*/
 
@@ -484,19 +459,11 @@ img {
 
   /*Nacionais*/
 
-  #norte .norte-text,
-  #nordeste .nordeste-text,
-  #centro-oeste .centro-oeste-text,
-  #sudeste .sudeste-text,
-  #sul .sul-text {
+  #regiao .regiao-text {
     margin: 20px 0;
   }
 
-  #norte .norte-text p,
-  #nordeste .nordeste-text p,
-  #centro-oeste .centro-oeste-text p,
-  #sudeste .sudeste-text p,
-  #sul .sul-text p {
+  #regiao .regiao-text p{
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 18px;
