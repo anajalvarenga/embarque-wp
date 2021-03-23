@@ -34,7 +34,7 @@
     <header>
         <div class="container" id="nav-container">
             <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top px-3 py-0">
-                <a href="index.html" class="navbar-brand">
+                <a href="/embarque/" class="navbar-brand">
                     <img src="./img/logo.svg" alt="Logo Embarque Turismo" class="logo">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,15 +45,15 @@
                         <li class="nav-item dropdown">
                             <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Nossas Viagens</a>
                             <div class="dropdown-menu">
-                                <a href="nacionais.html" class="dropdown-item">Nacionais</a>
-                                <a href="internacionais.html" class="dropdown-item">Internacionais</a>
+                                <a href="/embarque/nacionais/" class="dropdown-item">Nacionais</a>
+                                <a href="/embarque/internacionais/" class="dropdown-item">Internacionais</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="sobre.html" class="nav-link">Sobre</a>
+                            <a href="/embarque/sobre/" class="nav-link">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contato.html" class="nav-link">Contato</a>
+                            <a href="/embarque/contato/" class="nav-link">Contato</a>
                         </li>
                     </ul>
                 </div>
