@@ -31,7 +31,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <p>Desenvolvido por Ana Julia Gonçalves Alvarenga &copy; 2021</p>
+                        <p>Desenvolvido por Ana Julia Gonçalves Alvarenga &copy; <?php echo date("Y"); ?></p>
                     </div>
                 </div>
             </div>
