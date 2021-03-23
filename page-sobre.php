@@ -20,28 +20,15 @@
                     <div class="row mb-5">
                         <div class="col-md-6">
                             <h2>Sobre Nós</h2>
-                            <p>A Embarque é uma agência de turismo, especializada na organização de
-                                passeios para todos os destinos. Estamos felizes em tornar suas férias
-                                inesquecíveis e incríveis! Nossos agentes são especialistas em encontrar
-                                o lugar mais confortável e interessante para você passar férias de tirar o
-                                fôlego. Selecione o país que gostaria de visitar e forneça aos nossos
-                                agentes uma semana e eles encontrarão e oferecerão o mais adequado
-                                passeios e hotéis.
-                            </p>
-                            <p>Durante nosso trabalho, organizamos inúmeras viagens para nossos
-                                clientes. Começamos como uma pequena agência de turismo e logo
-                                expandimos nossa lista de ofertas. Hoje temos uma experiência valiosa
-                                em viagens e podemos aconselhar os mais impressionantes resorts,
-                                cidades e países a serem visitados!
-                            </p>
+                            <?php the_field('sobre_texto'); ?>
                         </div>
                         <div class="col-md-6">
-                            <img src="img/sobre.jpg" alt="Sobre">
+                            <img src="<?php the_field('sobre_foto'); ?>" alt="Sobre">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6 col-md-3 p-2">
-                            <img src="img/logo-sobre.jpg" alt="Logo Embarque">
+                            <img src="<?php the_field('logo_sobre'); ?>" alt="Logo Embarque">
                         </div>
                         <div class="col-6 col-md-3 p-2">
                             <div class="about-box p-2">
@@ -73,7 +60,7 @@
                     </div>
                     <div class="row mb-5">
                         <div class="col-12">
-                            <img src="img/team.jpg" alt="Nossa Equipe">
+                            <img src="<?php the_field('nossa_equipe'); ?>" alt="Nossa Equipe">
                         </div>
                     </div>
                 </div>
